@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand");
+body{
+    background-color:#B2ABF2 ;
+    min-height: 80vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Gochi Hand";
+}
