@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand");
 body{
-    background-color:#B2ABF2 ;
+    background-color:#7e7e7e;
     min-height: 80vh;
     padding: 1rem;
     box-sizing: border-box;
     color: black;
     font-family: "Gochi Hand";
+    background: url("https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 500px) {
@@ -18,7 +22,7 @@ body{
     width: 100% ;
     min-width: 500px;
     max-width:500px ;
-    background: #f1f5f8;
+    background: rgba(233, 161, 175, 0.7);
     border-radius: 20px;
     box-shadow: 4px 3px 7px 2px #00000040;
     padding: 1rem ;
@@ -33,10 +37,10 @@ body{
 }
 
 .heading_title{
-    transform: rotate(2deg);
+    transform: rotate(3deg);
     padding: 0.2rem 1.2rem;
     border-radius: 20% 5% 20% 5%;
-    background-color: #558B6E;
+    background-color: rgba(255, 255, 255, 0.747);
     font-size: 1.5rem;
 }
 
@@ -48,4 +52,25 @@ body{
 
 .heading_img{
     width: 30%;
+}
+
+.form_label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form_input{
+    box-sizing: border-box;
+    background-color: transparent;
+    padding:0.7rem ;
+    border-bottom-right-radius: 15px 3px ;
+    border-bottom-left-radius: 3px 15px ;
+    border: solid 3px transparent ;
+    border-bottom: dashed 3px #191819;
+    font-family: "Gochi Hand", cursive;
+    font-size: 1rem;
+    color: rgba(43, 43, 44, 0.7);
+    width: 70% ;
+    margin-bottom: 20px;
+
 }
