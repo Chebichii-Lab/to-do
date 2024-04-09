@@ -109,3 +109,22 @@ body{
     border-radius: 5px;
     border: 2px solid #494a4b;
 }
+
+.button:active, .button:focus{
+    transform: translateY(4px);
+    padding-bottom: 0px;
+    outline: 0;
+}
+
+.toDoList{
+    text-align: left;
+}
+
+.toDoList li{
+    position: relative;
+    padding: 0.5rem;
+}
+
+.toDoList li:hover{
+    text-decoration: line-through wavy #24bffb;
+}
